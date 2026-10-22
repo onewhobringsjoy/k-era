@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#111111">
+  <meta name="description" content="K-ERA streetwear. T-shirts, hoodies and everyday urban fashion.">
+  <title>K-ERA | Own Your Lane</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <div class="announcement">
+    YOUR STYLE. YOUR RULES. — WELCOME TO K-ERA
+  </div>
+
+  <header class="navbar">
+    <a class="logo" href="#home">K-ERA<span>.</span></a>
+
+    <nav aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#shop">Shop</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button class="cart-button" id="open-cart">
+      BAG (<span id="cart-count">0</span>)
+    </button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">STREETWEAR / COLLECTION 001</p>
+        <h1>OWN YOUR<br><span>LANE.</span></h1>
+        <p class="hero-description">
+          Everyday essentials. Unmistakable attitude.
+          Discover streetwear made for your own rhythm.
+        </p>
+        <a href="#shop" class="button button-lime">
+          SHOP COLLECTION ↗
+        </a>
+      </div>
+
+      <div class="hero-image" role="img" aria-label="Streetwear fashion campaign"></div>
+    </section>
+
+    <div class="ticker">
+      BOLD BY NATURE &nbsp; • &nbsp; BUILT FOR EVERYDAY &nbsp; • &nbsp; K-ERA
+    </div>
+
+    <section class="shop section" id="shop">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">FIND YOUR FIT</p>
+          <h2>THE COLLECTION.</h2>
+        </div>
+        <p class="muted">Fresh fits. Everyday essentials.</p>
+      </div>
+
+      <div class="filters" aria-label="Product categories">
+        <button class="filter active" data-category="All">All items</button>
+        <button class="filter" data-category="T-shirts">T-shirts</button>
+        <button class="filter" data-category="Hoodies">Hoodies</button>
+        <button class="filter" data-category="Casual wear">Casual wear</button>
+      </div>
+
+      <div class="products-grid" id="products">
+        <!-- Products are rendered by js/script.js -->
+      </div>
+    </section>
+
+    <section class="statement">
+      <p class="eyebrow">THE K-ERA MINDSET</p>
+      <h2>NOT JUST WHAT YOU WEAR.<br>WHO YOU ARE.</h2>
+      <p>Confidence is a mindset. Style is how you show it.</p>
+    </section>
+
+    <section class="about section" id="about">
+      <div>
+        <p class="eyebrow">OUR IDENTITY</p>
+        <h2>MADE FOR YOUR EVERYDAY.</h2>
+        <p class="muted">
+          K-ERA is a streetwear brand built around individuality,
+          comfort and confidence. From essential tees to everyday
+          hoodies, express your style on your own terms.
+        </p>
+        <a class="button button-dark" href="#shop">EXPLORE THE COLLECTION ↗</a>
+      </div>
+      <div class="about-mark">K-ERA.</div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <p class="eyebrow">LET'S CONNECT</p>
+      <h2>YOUR NEXT FIT STARTS HERE.</h2>
+      <p class="muted">
+        Need help with sizing or an order? Contact the K-ERA team.
+      </p>
+      <a class="button button-lime" id="contact-whatsapp" href="#">
+        CHAT WITH US ON WHATSAPP ↗
+      </a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-top">
+      <a class="logo logo-light" href="#home">K-ERA<span>.</span></a>
+      <div class="footer-links">
+        <a href="#shop">Shop</a>
+        <a href="#about">Our story</a>
+        <a id="instagram-link" href="#" target="_blank" rel="noopener">Instagram ↗</a>
+      </div>
+    </div>
+    <p>© <span id="year"></span> K-ERA. OWN YOUR LANE.</p>
+  </footer>
+
+  <!-- Shopping cart drawer -->
+  <div class="cart-overlay" id="cart-overlay" aria-hidden="true">
+    <aside class="cart-drawer" role="dialog"
+      aria-modal="true" aria-labelledby="cart-title">
+      <div class="cart-header">
+        <h2 id="cart-title">YOUR BAG.</h2>
+        <button id="close-cart" class="close-button"
+          aria-label="Close shopping cart">×</button>
+      </div>
+
+      <div id="cart-items"></div>
+
+      <div class="cart-total">
+        <span>Subtotal</span>
+        <strong id="cart-total">₦0</strong>
+      </div>
+
+      <p class="muted small">
+        Delivery charges are confirmed separately. Your order will
+        be sent to WhatsApp for confirmation.
+      </p>
+
+      <button class="button button-lime checkout-button" id="checkout">
+        ORDER VIA WHATSAPP ↗
+      </button>
+    </aside>
+  </div>
+</body>
+</html>
