@@ -20,34 +20,34 @@ const CONFIG = {
 const products = [
   {
     id: 1,
-    name: "Essential Oversized Tee",
+    name: "Essential Oversized Tee 1",
     category: "T-shirts",
     price: 10000,
     tag: "BESTSELLER",
     colors: "Black / White",
-    image: "images/polo-1.png"
+    image: "images/polo-1.jpeg"
   },
   {
     id: 2,
-    name: "Essential Oversized Tee",
+    name: "Essential Oversized Tee 2",
     category: "T-shirts",
     price: 10000,
     tag: "BESTSELLER",
     colors: "Black / White",
-    image: "images/polo-2.jpg"
+    image: "images/polo-2.jpeg"
   },
   {
     id: 3,
-    name: "Essential Oversized Tee",
+    name: "Essential Oversized Tee 3",
     category: "T-shirts",
     price: 10000,
     tag: "BESTSELLER",
     colors: "Black / White",
-    image: "images/polo-3.jpg"
+    image: "images/polo-3.jpeg"
   },
   {
     id: 4,
-    name: "Essential Oversized Tee",
+    name: "Essential Oversized Tee 4",
     category: "T-shirts",
     price: 10000,
     tag: "BESTSELLER",
@@ -56,7 +56,7 @@ const products = [
   },
   {
     id: 5,
-    name: "Essential Oversized Tee",
+    name: "Essential Oversized Tee 5",
     category: "T-shirts",
     price: 10000,
     tag: "BESTSELLER",
@@ -65,7 +65,7 @@ const products = [
   },
   {
     id: 6,
-    name: "Essential Oversized Tee",
+    name: "Essential Oversized Tee 6",
     category: "T-shirts",
     price: 10000,
     tag: "BESTSELLER",
@@ -74,7 +74,7 @@ const products = [
   },
   {
     id: 7,
-    name: "Essential Oversized Tee",
+    name: "Essential Oversized Tee 7",
     category: "T-shirts",
     price: 10000,
     tag: "BESTSELLER",
@@ -83,7 +83,7 @@ const products = [
   },
   {
     id: 8,
-    name: "Essential Oversized Tee",
+    name: "Essential Oversized Tee 8",
     category: "T-shirts",
     price: 10000,
     tag: "BESTSELLER",
@@ -119,7 +119,7 @@ const products = [
   },*/
   {
     id: 16,
-    name: "Vintage Short Sleeve Shirt",
+    name: "Vintage Short Sleeve Shirt 1",
     category: "Casual wear",
     price: 10000,
     tag: "EVERYDAY",
@@ -128,7 +128,7 @@ const products = [
   },
   {
     id: 17,
-    name: "Vintage Short Sleeve Shirt",
+    name: "Vintage Short Sleeve Shirt 2",
     category: "Casual wear",
     price: 10000,
     tag: "EVERYDAY",
@@ -137,7 +137,7 @@ const products = [
   },
   {
     id: 18,
-    name: "Odogwu Collar",
+    name: "Odogwu Collar 1",
     category: "Casual wear",
     price: 13000,
     tag: "EVERYDAY",
@@ -146,7 +146,7 @@ const products = [
   },
   {
     id: 19,
-    name: "Odogwu Collar",
+    name: "Odogwu Collar 2",
     category: "Casual wear",
     price: 13000,
     tag: "EVERYDAY",
@@ -155,7 +155,7 @@ const products = [
   },
   {
     id: 20,
-    name: "Odogwu Collar",
+    name: "Odogwu Collar 3",
     category: "Casual wear",
     price: 13000,
     tag: "EVERYDAY",
@@ -164,7 +164,7 @@ const products = [
   },
    {
     id: 21,
-    name: "Cotton Collar",
+    name: "Cotton Collar 1",
     category: "Casual wear",
     price: 8500,
     tag: "EVERYDAY",
@@ -173,7 +173,7 @@ const products = [
   },
   {
     id: 22,
-    name: "Cotton Collar",
+    name: "Cotton Collar 2",
     category: "Casual wear",
     price: 8500,
     tag: "EVERYDAY",
