@@ -139,7 +139,7 @@ const products = [
     id: 18,
     name: "Odogwu Collar 1",
     category: "Casual wear",
-    price: 13000,
+    price: 14000,
     tag: "EVERYDAY",
     colors: "Black / White",
     image: "images/collar-1.jpeg"
@@ -148,7 +148,7 @@ const products = [
     id: 19,
     name: "Odogwu Collar 2",
     category: "Casual wear",
-    price: 13000,
+    price: 14000,
     tag: "EVERYDAY",
     colors: "Black / Olive",
     image: "images/collar-2.jpeg"
@@ -157,7 +157,7 @@ const products = [
     id: 20,
     name: "Odogwu Collar 3",
     category: "Casual wear",
-    price: 13000,
+    price: 14000,
     tag: "EVERYDAY",
     colors: "Black / Olive",
     image: "images/collar-3.jpeg"
