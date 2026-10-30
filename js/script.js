@@ -98,16 +98,16 @@ const products = [
     tag: "BESTSELLER",
     colors: "Black / White",
     image: "images/polo-9.jpg"
-  },
+  },*/
   {
     id: 10,
-    name: "Graphic Statement Tee",
+    name: "Plain Crew Neck Tee 10",
     category: "T-shirts",
-    price: 6000,
+    price: 5000,
     tag: "NEW DROP",
-    colors: "White / Black",
+    colors: "White / Black / Red / Navy-Blue / Grey",
     image: "images/polo-10.jpg"
-  },*/
+  },
   /*{
     id: 11,
     name: "Signature Hoodie",
