@@ -24,7 +24,7 @@ const products = [
     category: "T-shirts",
     price: 10000,
     tag: "BESTSELLER",
-    colors: "Black / White",
+    colors: "Orange",
     image: "images/polo-1.jpeg"
   },
   {
@@ -33,7 +33,7 @@ const products = [
     category: "T-shirts",
     price: 10000,
     tag: "BESTSELLER",
-    colors: "Black / White",
+    colors: "White",
     image: "images/polo-2.jpeg"
   },
   {
@@ -42,7 +42,7 @@ const products = [
     category: "T-shirts",
     price: 10000,
     tag: "BESTSELLER",
-    colors: "Black / White",
+    colors: "Rust",
     image: "images/polo-3.jpeg"
   },
   {
@@ -51,8 +51,8 @@ const products = [
     category: "T-shirts",
     price: 10000,
     tag: "BESTSELLER",
-    colors: "Black / White",
-    image: "images/polo-4.jpg"
+    colors: "Green",
+    image: "images/polo-4.jpeg"
   },
   {
     id: 5,
@@ -60,8 +60,8 @@ const products = [
     category: "T-shirts",
     price: 10000,
     tag: "BESTSELLER",
-    colors: "Black / White",
-    image: "images/polo-5.png"
+    colors: "White",
+    image: "images/polo-5.jpeg"
   },
   {
     id: 6,
@@ -69,7 +69,7 @@ const products = [
     category: "T-shirts",
     price: 10000,
     tag: "BESTSELLER",
-    colors: "Black / White",
+    colors: "Blue",
     image: "images/polo-6.jpg"
   },
   {
@@ -78,7 +78,7 @@ const products = [
     category: "T-shirts",
     price: 10000,
     tag: "BESTSELLER",
-    colors: "Black / White",
+    colors: "Grey",
     image: "images/polo-7.jpg"
   },
   {
@@ -87,18 +87,18 @@ const products = [
     category: "T-shirts",
     price: 10000,
     tag: "BESTSELLER",
-    colors: "Black / White",
-    image: "images/polo-8.png"
+    colors: "Navy-Blue",
+    image: "images/polo-8.jpeg"
   },
-  /*{
+  {
     id: 9,
-    name: "Essential Oversized Tee",
+    name: "Essential Oversized Tee 9",
     category: "T-shirts",
     price: 10000,
     tag: "BESTSELLER",
-    colors: "Black / White",
-    image: "images/polo-9.jpg"
-  },*/
+    colors: "Bronze",
+    image: "images/polo-9.jpeg"
+  },
   {
     id: 10,
     name: "Plain Crew Neck Tee 10",
@@ -123,7 +123,7 @@ const products = [
     category: "Casual wear",
     price: 10000,
     tag: "EVERYDAY",
-    colors: "Black / Olive",
+    colors: "Black / White",
     image: "images/casual-1.jpeg"
   },
   {
@@ -132,53 +132,107 @@ const products = [
     category: "Casual wear",
     price: 10000,
     tag: "EVERYDAY",
-    colors: "Black / Olive",
+    colors: "Black / White",
     image: "images/casual-2.jpeg"
   },
   {
     id: 18,
+    name: "Vintage Short Sleeve Shirt 3",
+    category: "Casual wear",
+    price: 10000,
+    tag: "EVERYDAY",
+    colors: "Blue / Rust",
+    image: "images/casual-3.jpeg"
+  },
+  {
+    id: 19,
+    name: "Vintage Short Sleeve Shirt 4",
+    category: "Casual wear",
+    price: 10000,
+    tag: "EVERYDAY",
+    colors: "Brown",
+    image: "images/casual-4.jpeg"
+  },
+  {
+    id: 20,
+    name: "Vintage Short Sleeve Shirt 5",
+    category: "Casual wear",
+    price: 10000,
+    tag: "EVERYDAY",
+    colors: "Brown / Blue / Cream",
+    image: "images/casual-5.jpeg"
+  },
+  {
+    id: 21,
     name: "Odogwu Collar 1",
     category: "Casual wear",
     price: 14000,
     tag: "EVERYDAY",
-    colors: "Black / White",
+    colors: "Olive",
     image: "images/collar-1.jpeg"
   },
   {
-    id: 19,
+    id: 22,
     name: "Odogwu Collar 2",
     category: "Casual wear",
     price: 14000,
     tag: "EVERYDAY",
-    colors: "Black / Olive",
+    colors: "Black",
     image: "images/collar-2.jpeg"
   },
   {
-    id: 20,
+    id: 23,
     name: "Odogwu Collar 3",
     category: "Casual wear",
     price: 14000,
     tag: "EVERYDAY",
-    colors: "Black / Olive",
+    colors: "Rust",
     image: "images/collar-3.jpeg"
   },
-   {
-    id: 21,
+  {
+    id: 24,
+    name: "Odogwu Collar 4",
+    category: "Casual wear",
+    price: 14000,
+    tag: "EVERYDAY",
+    colors: "Black",
+    image: "images/collar-4.jpeg"
+  },
+  {
+    id: 25,
+    name: "Odogwu Collar 5",
+    category: "Casual wear",
+    price: 14000,
+    tag: "EVERYDAY",
+    colors: "Navy-Blue",
+    image: "images/collar-5.jpeg"
+  },
+  {
+    id: 26,
+    name: "Odogwu Collar 6",
+    category: "Casual wear",
+    price: 14000,
+    tag: "EVERYDAY",
+    colors: "Brown",
+    image: "images/collar-6.jpeg"
+  },
+  {
+    id: 27,
     name: "Cotton Collar 1",
     category: "Casual wear",
     price: 8500,
     tag: "EVERYDAY",
-    colors: "Black / Olive",
-    image: "images/collar-4.jpeg"
+    colors: "Lime",
+    image: "images/c-collar-1.jpeg"
   },
   {
-    id: 22,
+    id: 28,
     name: "Cotton Collar 2",
     category: "Casual wear",
     price: 8500,
     tag: "EVERYDAY",
-    colors: "Black / Olive",
-    image: "images/collar-5.jpeg"
+    colors: "White / Orange",
+    image: "images/c-collar-2.jpeg"
   },
   /*{
     id: 25,
