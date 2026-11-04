@@ -108,6 +108,15 @@ const products = [
     colors: "White / Black / Red / Navy-Blue / Grey",
     image: "images/polo-10.jpg"
   },
+  {
+    id: 11,
+    name: "Plain Joggers",
+    category: "Joggers",
+    price: 13000,
+    tag: "ESSENTIAL",
+    colors: "Black / Grey / Red / Brown",
+    image: "images/joggers-1.jpeg"
+  },
   /*{
     id: 11,
     name: "Signature Hoodie",
