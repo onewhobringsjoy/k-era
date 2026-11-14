@@ -37,6 +37,15 @@ const products = [
     image: "images/polo-2.jpeg"
   },
   {
+    id: 2-1,
+    name: "Premium Odogwu Tee 1",
+    category: "T-shirts",
+    price: 11000,
+    tag: "BESTSELLER",
+    colors: "White",
+    image: "images/p-odogwu-1.jpeg"
+  },
+  {
     id: 3,
     name: "Essential Oversized Tee 3",
     category: "T-shirts",
@@ -55,6 +64,15 @@ const products = [
     image: "images/polo-4.jpeg"
   },
   {
+    id: 4-1,
+    name: "Premium Odogwu Tee 2",
+    category: "T-shirts",
+    price: 11000,
+    tag: "BESTSELLER",
+    colors: "White",
+    image: "images/p-odogwu-2.jpeg"
+  },
+  {
     id: 5,
     name: "Essential Oversized Tee 5",
     category: "T-shirts",
@@ -69,8 +87,8 @@ const products = [
     category: "T-shirts",
     price: 10000,
     tag: "BESTSELLER",
-    colors: "Blue",
-    image: "images/polo-6.jpg"
+    colors: "Green",
+    image: "images/polo-6.jpeg"
   },
   {
     id: 7,
@@ -78,8 +96,17 @@ const products = [
     category: "T-shirts",
     price: 10000,
     tag: "BESTSELLER",
+    colors: "Black",
+    image: "images/polo-7.jpeg"
+  },
+  {
+    id: 7-1,
+    name: "Premium Odogwu Tee 3",
+    category: "T-shirts",
+    price: 11000,
+    tag: "BESTSELLER",
     colors: "Grey",
-    image: "images/polo-7.jpg"
+    image: "images/p-odogwu-3.jpeg"
   },
   {
     id: 8,
@@ -109,23 +136,50 @@ const products = [
     image: "images/polo-10.jpg"
   },
   {
+    id: 10-1,
+    name: "Premium Odogwu Tee 4",
+    category: "T-shirts",
+    price: 11000,
+    tag: "NEW DROP",
+    colors: "Mint Green",
+    image: "images/p-odogwu-4.jpeg"
+  },
+  {
+    id: 10-2,
+    name: "Premium Odogwu Tee 5",
+    category: "T-shirts",
+    price: 11000,
+    tag: "NEW DROP",
+    colors: "Black",
+    image: "images/p-odogwu-5.jpeg"
+  },
+  {
     id: 11,
     name: "Plain Joggers",
     category: "Joggers",
     price: 13000,
     tag: "ESSENTIAL",
-    colors: "Black / Grey / Red / Brown",
+    colors: "Black / Grey / Red / Blue / Brown",
     image: "images/joggers-1.jpeg"
   },
-  /*{
-    id: 11,
+  {
+    id: 12,
+    name: "Plain Joggers",
+    category: "Joggers",
+    price: 13000,
+    tag: "ESSENTIAL",
+    colors: "Black / Grey / Red / Blue / Brown",
+    image: "images/joggers-2.jpeg"
+  },
+  {
+    id: 13,
     name: "Signature Hoodie",
     category: "Hoodies",
-    price: 25000,
+    price: 20000,
     tag: "ESSENTIAL",
     colors: "Black / Grey",
-    image: "images/hoodies-1.jpg"
-  },*/
+    image: "images/hoodies-1.jpeg"
+  },
   {
     id: 16,
     name: "Vintage Short Sleeve Shirt 1",
